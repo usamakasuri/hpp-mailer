@@ -64,7 +64,7 @@
                   </div>
                   <div class="col-md-12 text-center mt-2 form-action">
                     <a href="#">Click Here for Bulk Order <span>
-                      <img src="../assets/images/right-arrrow.svg" width="100%" height="auto" alt="right arrow" />
+                      <img src="../assets/images/right-arrrow.svg" width="20" height="20" alt="right arrow" />
                     </span></a>
                     <button class="cta-button px-5" style="width: 300px">Get a quote</button>
                   </div>
@@ -362,7 +362,7 @@
                         </div>
                         <div class="col-md-8 mt-3">
                           <label class="form-label">Description</label>
-                          <textarea class="form-control" aria-label="name" rows="4" />
+                          <textarea class="form-control" aria-label="name" rows="4"></textarea>
                         </div>
                         <div class="col-md-4 mt-3">
                           <label class="form-label">Upload your Artwork or Reference images</label>
