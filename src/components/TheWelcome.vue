@@ -249,7 +249,7 @@
           </div>
           <div class="col-md-3">
             <div class="mailer_products text-center">
-              <img src="../assets/images/m11.jpg" alt="products" width="100%" height="auto" />
+              <img src="../assets/images/m11.jpg" alt="products" width="600" height="600" />
               <h4>Corrugated Mailer Boxes</h4>
             </div>
           </div>
