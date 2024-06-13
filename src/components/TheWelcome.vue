@@ -583,7 +583,7 @@
           </div>
           <div class="col-md-6">
             <div class="text-center mt-3 mt-md-0">
-              <img src="../assets/images/shop-items.png" alt="Half Price Packaging" width="100%" />
+              <img src="../assets/images/shop-items.png" alt="Half Price Packaging" width="100%" height="100%"/>
             </div>
           </div>
         </div>
@@ -602,7 +602,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="text-center">
-              <img class="rounded-2" src="../assets/images/why-stack.jpg" alt="Half Price Packaging" width="100%" />
+              <img class="rounded-2" src="../assets/images/why-stack.jpg" alt="Half Price Packaging" width="100%" height="100%"/>
             </div>
           </div>
           <div class="col-md-8">
