@@ -101,7 +101,7 @@
                 <p class="px-3 m-0">Super-Fast Delivery</p>
               </li>
               <li class="d-flex align-items-center">
-                <img src="../assets/images/3d-design.png" width="40" height="40"lt="hpp" />
+                <img src="../assets/images/3d-design.png" width="40" height="40" alt="hpp" />
                 <p class="px-3 m-0">3D Design Studio</p>
               </li>
             </ul>
@@ -293,14 +293,14 @@
                       <div class="row">
                         <div class="col-md-3">
                           <label class="form-label">Box Type</label>
-                          <select id="inputState" class="form-select">
+                          <select id="inputState" class="form-select" aria-label="name">
                             <option selected>Choose...</option>
                             <option>...</option>
                           </select>
                         </div>
                         <div class="col-md-2">
                           <label class="form-label">Materials</label>
-                          <select id="inputState" class="form-select">
+                          <select id="inputState" class="form-select" aria-label="name">
                             <option selected>Choose...</option>
                             <option>...</option>
                           </select>
@@ -319,7 +319,7 @@
                         </div>
                         <div class="col-md-2">
                           <label class="form-label">Dimension Unit</label>
-                          <select id="inputState" class="form-select">
+                          <select id="inputState" class="form-select" aria-label="name">
                             <option selected>Choose...</option>
                             <option>...</option>
                           </select>
