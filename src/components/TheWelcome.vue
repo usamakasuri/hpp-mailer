@@ -10,7 +10,7 @@
           <div class="col-md-12">
             <div class="breadcrumb-sec">
               <a class="d-flex align-items-center text-decoration-none">
-                <img src="../assets/icons/breadcrumb.svg" width="25" height="auto" alt="Breadcrumb" />
+                <img src="../assets/icons/breadcrumb.svg" width="25" height="25" alt="Breadcrumb" />
                 <p class="m-0 d-flex align-items-center">Mailer Boxes</p>
               </a>
             </div>
@@ -89,19 +89,19 @@
           <div class="col-md-8">
             <ul class="trustpilot-features mt-3-0 p-0">
               <li class="d-flex align-items-center">
-                <img src="../assets/images/sss-certified.png" width="40" alt="hpp"/>
+                <img src="../assets/images/sss-certified.png" width="40" height="40"alt="hpp"/>
                 <p class="px-3 m-0">FSC Certified</p>
               </li>
               <li class="d-flex align-items-center">
-                <img src="../assets/images/clock.png" width="40" alt="hpp" />
+                <img src="../assets/images/clock.png" width="40" height="40"alt="hpp" />
                 <p class="px-3 m-0">Easy Order Processing</p>
               </li>
               <li class="d-flex align-items-center">
-                <img src="../assets/images/fast-delivery.png" width="40" alt="hpp" />
+                <img src="../assets/images/fast-delivery.png" width="40" height="40"alt="hpp" />
                 <p class="px-3 m-0">Super-Fast Delivery</p>
               </li>
               <li class="d-flex align-items-center">
-                <img src="../assets/images/3d-design.png" width="40" alt="hpp" />
+                <img src="../assets/images/3d-design.png" width="40" height="40"lt="hpp" />
                 <p class="px-3 m-0">3D Design Studio</p>
               </li>
             </ul>
