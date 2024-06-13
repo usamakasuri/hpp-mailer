@@ -2,6 +2,7 @@
 import TheWelcome from '../components/TheWelcome.vue'
 import Footer from "@/components/Footer.vue";
 import Header from "@/components/Header.vue";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 </script>
 
 <template>
@@ -9,5 +10,6 @@ import Header from "@/components/Header.vue";
 <!--    <Header />-->
     <TheWelcome />
     <Footer />
+    <SpeedInsights />
   </main>
 </template>
