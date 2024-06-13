@@ -20,13 +20,13 @@
               <p class="pr-6">Maintaining The Goodness Of The Products Inside, <br> Our Sustainable Boxes Are Built To Be The Best Beyond Looks!</p>
             </div>
             <div class="second-logo-list">
-              <img src="../assets/images/logo.svg" width="250px" alt="hpp" />
-              <img class="mx-2" src="../assets/images/fsc.jpg" width="150px" height="auto" alt="hpp" />
+              <img src="../assets/images/logo.svg" width="250" height="100" alt="hpp" />
+              <img class="mx-2" src="../assets/images/fsc.jpg" width="150" height="auto" alt="hpp" />
             </div>
             <div class="second-logo-list mt-3">
-              <img src="../assets/images/google-reviews.png" width="120px" alt="hpp" />
-              <img class="mx-2" src="../assets/images/clutch-logo.png" width="120px" alt="hpp" />
-              <img class="mx-2" src="../assets/images/bbb-logo.jpg" width="120px" alt="hpp" />
+              <img src="../assets/images/google-reviews.png" width="120" height="auto" alt="hpp" />
+              <img class="mx-2" src="../assets/images/clutch-logo.png" width="120" height="auto" alt="hpp" />
+              <img class="mx-2" src="../assets/images/bbb-logo.jpg" width="120" height="40" alt="hpp" />
             </div>
           </div>
         </div>
@@ -178,27 +178,27 @@
           <ul class="footer-ul">
             <li>
               <a href="#">
-                <img src="../assets/footer/fb.svg" width="20" alt="hpp" />
+                <img src="../assets/footer/fb.svg" width="20" height="20" alt="hpp" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="../assets/footer/ln.svg" width="20" alt="hpp" />
+                <img src="../assets/footer/ln.svg" width="20" height="20" alt="hpp" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="../assets/footer/ig.svg" width="20" alt="hpp" />
+                <img src="../assets/footer/ig.svg" width="20" height="20" alt="hpp" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="../assets/footer/tw.svg" width="20" alt="hpp" />
+                <img src="../assets/footer/tw.svg" width="20" height="20" alt="hpp" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="../assets/images/trustpilott.svg" width="100" alt="hpp" />
+                <img src="../assets/images/trustpilott.svg" width="100" height="30" alt="hpp" />
               </a>
             </li>
           </ul>
