@@ -189,74 +189,73 @@
           <h2 class="text-center text-md-start mb-4">Mailer Boxes Products</h2>
           <div class="col-md-3">
             <div class="mailer_products text-center">
-              <img src="../assets/images/p1.jpg" alt="products" width="100%" height="auto" />
+              <img src="../assets/images/p1.jpg" alt="products" />
               <h4>Corrugated Mailer Boxes</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="mailer_products text-center">
-              <img src="../assets/images/m2.jpg" alt="products" width="100%" height="auto" />
+              <img src="../assets/images/m2.jpg" alt="products" />
               <h4>Corrugated Mailer Boxes</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="mailer_products text-center">
-              <img src="../assets/images/m3.jpg" alt="products" width="100%" height="auto" />
+              <img src="../assets/images/m3.jpg" alt="products"/>
               <h4>Corrugated Mailer Boxes</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="mailer_products text-center">
-              <img src="../assets/images/m4.jpg" alt="products" width="100%" height="auto" />
+              <img src="../assets/images/m4.jpg" alt="products" />
               <h4>Corrugated Mailer Boxes</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="mailer_products text-center">
-              <img src="../assets/images/m5.jpg" alt="products" width="100%" height="auto" />
+              <img src="../assets/images/m5.jpg" alt="products"/>
               <h4>Corrugated Mailer Boxes</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="mailer_products text-center">
-              <img src="../assets/images/m6.jpg" alt="products" width="100%" height="auto" />
+              <img src="../assets/images/m6.jpg" alt="products"/>
               <h4>Corrugated Mailer Boxes</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="mailer_products text-center">
-              <img src="../assets/images/m7.jpg" alt="products" width="100%" height="auto" />
+              <img src="../assets/images/m7.jpg" alt="products" />
               <h4>Corrugated Mailer Boxes</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="mailer_products text-center">
-              <img src="../assets/images/m8.jpg" alt="products" width="100%" height="auto" />
+              <img src="../assets/images/m8.jpg" alt="products" />
               <h4>Corrugated Mailer Boxes</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="mailer_products text-center">
-              <img src="../assets/images/m9.jpg" alt="products" width="100%" height="auto" />
+              <img src="../assets/images/m9.jpg" alt="products" />
               <h4>Corrugated Mailer Boxes</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="mailer_products text-center">
-              <img src="../assets/images/m10.jpg" alt="products" width="100%" height="auto" />
+              <img src="../assets/images/m10.jpg" alt="products" />
               <h4>Corrugated Mailer Boxes</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="mailer_products text-center">
-              <img src="../assets/images/m11.jpg" alt="products" width="600" height="600" />
+              <img src="../assets/images/m11.jpg" alt="products" />
               <h4>Corrugated Mailer Boxes</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="mailer_product text-center position-relative">
-              <img src="../assets/images/browse-all.jpg" class="browseall-img" alt="products" width="100%"
-                   height="340px" />
+              <img src="../assets/images/browse-all.jpg" class="browseall-img" alt="products" />
               <div class="browser-all position-absolute">
                 <h4 class="text-white">Explore all Mailer Boxes Products</h4>
                 <button class="cta-button">Browse All</button>
@@ -937,6 +936,8 @@
 
   img {
     border-radius: 5px;
+    width: 100%;
+    height: auto;
   }
 
   h2 {
