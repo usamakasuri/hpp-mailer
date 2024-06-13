@@ -29,7 +29,7 @@
                 consistently strives for excellence,
                 offering custom mailer boxes wholesale of unmatched value. Our easy price matching ensures both
                 cost-effectiveness and quality.</p>
-              <img src="../assets/images/custom-mailer-boxes.png" width="100%" height="100%" alt="hpp"/>
+              <!-- <img src="../assets/images/custom-mailer-boxes.png" width="100%" height="100%" alt="hpp"/> -->
             </div>
           </div>
           <div class="col-md-6 px-2 py-4 px-md-5">
