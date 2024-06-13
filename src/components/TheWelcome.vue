@@ -38,16 +38,16 @@
               <form class="mt-4">
                 <div class="row">
                   <div class="col-md-6">
-                    <input type="text" class="form-control" placeholder="Name*">
+                    <input type="text" class="form-control" aria-label="name" placeholder="Name*">
                   </div>
                   <div class="col-md-6">
-                    <input type="email" class="form-control" placeholder="name@gmail.com*">
+                    <input type="email" class="form-control" aria-label="email" placeholder="name@gmail.com*">
                   </div>
                   <div class="col-md-6">
-                    <input type="phone" class="form-control" placeholder="Phone*">
+                    <input type="phone" class="form-control" aria-label="phone" placeholder="Phone*">
                   </div>
                   <div class="col-md-6">
-                    <input type="email" class="form-control" placeholder="Quantity MQ(100)*">
+                    <input type="email" class="form-control" aria-label="quantity" placeholder="Quantity MQ(100)*">
                   </div>
                   <div class="col-md-12">
                     <select class="form-select" aria-label="Default select example">
@@ -59,12 +59,12 @@
                   </div>
                   <div class="col-md-12">
                     <label>Description</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                    <textarea class="form-control" aria-label="comment" id="exampleFormControlTextarea1" rows="5"
                               placeholder="Provide detailed packaging specifications including dimensions, materials, weight restrictions, and design references and we'll get back to you with an instant quote."></textarea>
                   </div>
                   <div class="col-md-12 text-center mt-2 form-action">
                     <a href="#">Click Here for Bulk Order <span>
-                      <img src="../assets/images/right-arrrow.svg" alt="right arrow" />
+                      <img src="../assets/images/right-arrrow.svg" width="100%" height="auto" alt="right arrow" />
                     </span></a>
                     <button class="cta-button px-5" style="width: 300px">Get a quote</button>
                   </div>
@@ -311,15 +311,15 @@
                         </div>
                         <div class="col-md-1">
                           <label class="form-label">Length</label>
-                          <input class="form-control" type="text" place-self-start="Length">
+                          <input class="form-control" type="text" aria-label="name" place-self-start="Length">
                         </div>
                         <div class="col-md-1">
                           <label class="form-label">Width</label>
-                          <input class="form-control" type="text" place-self-start="Width">
+                          <input class="form-control" type="text" aria-label="name" place-self-start="Width">
                         </div>
                         <div class="col-md-1">
                           <label class="form-label">Height</label>
-                          <input class="form-control" type="text" place-self-start="Height">
+                          <input class="form-control" type="text" aria-label="name" place-self-start="Height">
                         </div>
                         <div class="col-md-2">
                           <label class="form-label">Dimension Unit</label>
@@ -330,48 +330,48 @@
                         </div>
                         <div class="col-md-2">
                           <label class="form-label">Quantity(MQ:200)*</label>
-                          <input type="number" class="form-control" placeholder="Quantity">
+                          <input type="number" aria-label="name" class="form-control" placeholder="Quantity">
                         </div>
                         <div class="col-md-3 mt-3">
                           <label class="form-label">Printing Sides</label>
-                          <select id="inputState" class="form-select">
+                          <select id="inputState" aria-label="name" class="form-select">
                             <option selected>Choose...</option>
                             <option>...</option>
                           </select>
                         </div>
                         <div class="col-md-3 mt-3">
                           <label class="form-label">Card Thickness</label>
-                          <select id="inputState" class="form-select">
+                          <select id="inputState" aria-label="name" class="form-select">
                             <option selected>Choose...</option>
                             <option>...</option>
                           </select>
                         </div>
                         <div class="col-md-3 mt-3">
                           <label class="form-label">Coating Lamination</label>
-                          <select id="inputState" class="form-select">
+                          <select id="inputState" aria-label="name" class="form-select">
                             <option selected>Choose...</option>
                             <option>...</option>
                           </select>
                         </div>
                         <div class="col-md-3 mt-3">
                           <label class="form-label">Extra Finishing</label>
-                          <select id="inputState" class="form-select">
+                          <select id="inputState" aria-label="name" class="form-select">
                             <option selected>Choose...</option>
                             <option>...</option>
                           </select>
                         </div>
                         <div class="col-md-8 mt-3">
                           <label class="form-label">Description</label>
-                          <textarea class="form-control" rows="4" />
+                          <textarea class="form-control" aria-label="name" rows="4" />
                         </div>
                         <div class="col-md-4 mt-3">
                           <label class="form-label">Upload your Artwork or Reference images</label>
-                          <input type="file" class="form-control" />
+                          <input type="file" aria-label="name" class="form-control" />
                         </div>
 
                         <div class="col-md-12 mt-4 text-center">
                           <a href="#">Click Here for Bulk Order <span>
-                            <img src="../assets/images/right-arrrow.svg" alt="right arrow" />
+                            <img src="../assets/images/right-arrrow.svg" width="20" height="20"alt="right arrow" />
                           </span></a>
                           <button class="cta-button" style="width: 300px;">Proceed</button>
                         </div>
@@ -385,13 +385,13 @@
                     <form>
                       <div class="row">
                         <div class="col-md-12">
-                          <input type="text" class="form-control" placeholder="Enter your Name" />
+                          <input type="text" class="form-control" aria-label="name" placeholder="Enter your Name" />
                         </div>
                         <div class="col-md-12 mt-2">
-                          <input type="email" class="form-control" placeholder="Enter your Email" />
+                          <input type="email" class="form-control" aria-label="name" placeholder="Enter your Email" />
                         </div>
                         <div class="col-md-12 mt-2">
-                          <input type="number" class="form-control" placeholder="Enter your Phone" />
+                          <input type="number" class="form-control" aria-label="name" placeholder="Enter your Phone" />
                         </div>
                         <div class="col-md-12 mt-4 text-center">
                           <button class="cta-button">Order</button>
