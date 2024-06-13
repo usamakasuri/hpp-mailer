@@ -10,7 +10,7 @@
           <div class="col-md-12">
             <div class="breadcrumb-sec">
               <a class="d-flex align-items-center text-decoration-none">
-                <img src="../assets/icons/breadcrumb.svg" width="25px" height="auto" alt="Breadcrumb" />
+                <img src="../assets/icons/breadcrumb.svg" width="25" height="auto" alt="Breadcrumb" />
                 <p class="m-0 d-flex align-items-center">Mailer Boxes</p>
               </a>
             </div>
@@ -89,19 +89,19 @@
           <div class="col-md-8">
             <ul class="trustpilot-features mt-3-0 p-0">
               <li class="d-flex align-items-center">
-                <img src="../assets/images/sss-certified.png" width="40px" alt="hpp"/>
+                <img src="../assets/images/sss-certified.png" width="40" alt="hpp"/>
                 <p class="px-3 m-0">FSC Certified</p>
               </li>
               <li class="d-flex align-items-center">
-                <img src="../assets/images/clock.png" width="40px" alt="hpp" />
+                <img src="../assets/images/clock.png" width="40" alt="hpp" />
                 <p class="px-3 m-0">Easy Order Processing</p>
               </li>
               <li class="d-flex align-items-center">
-                <img src="../assets/images/fast-delivery.png" width="40px" alt="hpp" />
+                <img src="../assets/images/fast-delivery.png" width="40" alt="hpp" />
                 <p class="px-3 m-0">Super-Fast Delivery</p>
               </li>
               <li class="d-flex align-items-center">
-                <img src="../assets/images/3d-design.png" width="40px" alt="hpp" />
+                <img src="../assets/images/3d-design.png" width="40" alt="hpp" />
                 <p class="px-3 m-0">3D Design Studio</p>
               </li>
             </ul>
@@ -119,9 +119,9 @@
           <div class="col-md-2 d-flex align-items-center justify-content-center mb-2">
             <div class="images">
               <div class="image text-center image-main-div">
-                <img src="../assets/images/01.jpg" alt="not found" style="border-radius: 50%; text-align: center;" />
+                <img src="../assets/images/01.jpg" alt="not found" width="100%" />
                 <img class="first" src="../assets/images/001.jpg" alt="not found"
-                     style="border-radius: 50%; text-align: center;" />
+                     />
               </div>
               <h4 class="text-center">Card Inserts</h4>
             </div>
@@ -129,9 +129,9 @@
           <div class="col-md-2 d-flex align-items-center justify-content-center mb-2">
             <div class="images">
               <div class="image text-center image-main-div">
-                <img src="../assets/images/02.jpg" alt="not found" style="border-radius: 50%; text-align: center;" />
+                <img src="../assets/images/02.jpg" alt="not found" />
                 <img class="first" src="../assets/images/002.jpg" alt="not found"
-                     style="border-radius: 50%; text-align: center;" />
+                     />
               </div>
               <h4 class="text-center">Card Pasting
               </h4>
@@ -140,9 +140,9 @@
           <div class="col-md-2 d-flex align-items-center justify-content-center mb-2">
             <div class="images">
               <div class="image text-center image-main-div">
-                <img src="../assets/images/03.jpg" alt="not found" style="border-radius: 50%; text-align: center;" />
+                <img src="../assets/images/03.jpg" alt="not found" />
                 <img class="first" src="../assets/images/003.jpg" alt="not found"
-                     style="border-radius: 50%; text-align: center;" />
+                     />
               </div>
               <h4 class="text-center">Eva Foam Inserts
               </h4>
@@ -151,9 +151,9 @@
           <div class="col-md-2 d-flex align-items-center justify-content-center mb-2">
             <div class="images">
               <div class="image text-center image-main-div">
-                <img src="../assets/images/04.jpg" alt="not found" style="border-radius: 50%; text-align: center;" />
+                <img src="../assets/images/04.jpg" alt="not found" />
                 <img class="first" src="../assets/images/004.jpg" alt="not found"
-                     style="border-radius: 50%; text-align: center;" />
+                     />
               </div>
               <h4 class="text-center">Simple Foam Inserts
               </h4>
@@ -162,9 +162,9 @@
           <div class="col-md-2 d-flex align-items-center justify-content-center mb-2">
             <div class="images">
               <div class="image text-center image-main-div">
-                <img src="../assets/images/05.jpg" alt="not found" style="border-radius: 50%; text-align: center;" />
+                <img src="../assets/images/05.jpg" alt="not found" />
                 <img class="first" src="../assets/images/005.jpg" alt="not found"
-                     style="border-radius: 50%; text-align: center;" />
+                     />
               </div>
               <h4 class="text-center">Velvet Pasting Inserts
               </h4>
@@ -173,9 +173,9 @@
           <div class="col-md-2 d-flex align-items-center justify-content-center mb-2">
             <div class="images">
               <div class="image text-center image-main-div">
-                <img src="../assets/images/06.jpg" alt="not found" style="border-radius: 50%; text-align: center;" />
+                <img src="../assets/images/06.jpg" alt="not found" />
                 <img class="first" src="../assets/images/006.jpg" alt="not found"
-                     style="border-radius: 50%; text-align: center;" />
+                     />
               </div>
               <h4 class="text-center">Corrugated Inserts
               </h4>
@@ -880,8 +880,15 @@
   }
 }
 
+
+#mailer-box-types img {
+  border-radius: 50%;
+  text-align: center;
+}
+
 .trustpilot #mailer-box-types .images img {
-  width: 215px;
+  width: 100%;
+  height: auto;
 }
 
 #mailer-box-types {
