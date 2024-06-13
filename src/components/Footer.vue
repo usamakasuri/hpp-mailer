@@ -178,27 +178,27 @@
           <ul class="footer-ul">
             <li>
               <a href="#">
-                <img src="../assets/footer/fb.svg" width="20" />
+                <img src="../assets/footer/fb.svg" width="20" alt="hpp" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="../assets/footer/ln.svg" width="20" />
+                <img src="../assets/footer/ln.svg" width="20" alt="hpp" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="../assets/footer/ig.svg" width="20" />
+                <img src="../assets/footer/ig.svg" width="20" alt="hpp" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="../assets/footer/tw.svg" width="20" />
+                <img src="../assets/footer/tw.svg" width="20" alt="hpp" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="../assets/images/trustpilott.svg" width="100" />
+                <img src="../assets/images/trustpilott.svg" width="100" alt="hpp" />
               </a>
             </li>
           </ul>

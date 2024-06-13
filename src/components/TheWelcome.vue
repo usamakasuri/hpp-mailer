@@ -29,7 +29,7 @@
                 consistently strives for excellence,
                 offering custom mailer boxes wholesale of unmatched value. Our easy price matching ensures both
                 cost-effectiveness and quality.</p>
-              <img src="../assets/images/custom-mailer-boxes.png" width="100%" height="auto" />
+              <img src="../assets/images/custom-mailer-boxes.png" width="100%" height="auto" alt="hpp"/>
             </div>
           </div>
           <div class="col-md-6 px-2 py-4 px-md-5">
@@ -89,19 +89,19 @@
           <div class="col-md-8">
             <ul class="trustpilot-features mt-3-0 p-0">
               <li class="d-flex align-items-center">
-                <img src="../assets/images/sss-certified.png" width="40px" />
+                <img src="../assets/images/sss-certified.png" width="40px" alt="hpp"/>
                 <p class="px-3 m-0">FSC Certified</p>
               </li>
               <li class="d-flex align-items-center">
-                <img src="../assets/images/clock.png" width="40px" />
+                <img src="../assets/images/clock.png" width="40px" alt="hpp" />
                 <p class="px-3 m-0">Easy Order Processing</p>
               </li>
               <li class="d-flex align-items-center">
-                <img src="../assets/images/fast-delivery.png" width="40px" />
+                <img src="../assets/images/fast-delivery.png" width="40px" alt="hpp" />
                 <p class="px-3 m-0">Super-Fast Delivery</p>
               </li>
               <li class="d-flex align-items-center">
-                <img src="../assets/images/3d-design.png" width="40px" />
+                <img src="../assets/images/3d-design.png" width="40px" alt="hpp" />
                 <p class="px-3 m-0">3D Design Studio</p>
               </li>
             </ul>
