@@ -546,7 +546,7 @@
         <div class="row py-3 why-us-bg rounded-md d-flex align-items-center justify-content-center">
           <div class="col-md-6">
             <div class="text-center">
-              <img src="../assets/images/why-us.png" alt="Half Price Packaging" width="100%" />
+              <img src="../assets/images/why-us.png" alt="Half Price Packaging" width="100%" height="100%"/>
             </div>
           </div>
           <div class="col-md-6">
