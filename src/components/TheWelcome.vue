@@ -29,7 +29,7 @@
                 consistently strives for excellence,
                 offering custom mailer boxes wholesale of unmatched value. Our easy price matching ensures both
                 cost-effectiveness and quality.</p>
-              <img src="../assets/images/custom-mailer-boxes.png" width="100%" height="auto" alt="hpp"/>
+              <img src="../assets/images/custom-mailer-boxes.png" width="100%" height="100%" alt="hpp"/>
             </div>
           </div>
           <div class="col-md-6 px-2 py-4 px-md-5">
@@ -119,8 +119,8 @@
           <div class="col-md-2 d-flex align-items-center justify-content-center mb-2">
             <div class="images">
               <div class="image text-center image-main-div">
-                <img src="../assets/images/01.jpg" alt="not found" width="280" height="auto" />
-                <img class="first" src="../assets/images/001.jpg" alt="not found" width="280" height="auto" />
+                <img src="../assets/images/01.jpg" alt="not found" width="228" height="228" />
+                <img class="first" src="../assets/images/001.jpg" alt="not found" width="228" height="228" />
               </div>
               <h4 class="text-center">Card Inserts</h4>
             </div>
@@ -128,8 +128,8 @@
           <div class="col-md-2 d-flex align-items-center justify-content-center mb-2">
             <div class="images">
               <div class="image text-center image-main-div">
-                <img src="../assets/images/02.jpg" alt="not found" width="280" height="auto" />
-                <img class="first" src="../assets/images/002.jpg" alt="not found" width="280" height="auto" />
+                <img src="../assets/images/02.jpg" alt="not found" width="228" height="228" />
+                <img class="first" src="../assets/images/002.jpg" alt="not found" width="228" height="228" />
               </div>
               <h4 class="text-center">Card Pasting
               </h4>
@@ -138,8 +138,8 @@
           <div class="col-md-2 d-flex align-items-center justify-content-center mb-2">
             <div class="images">
               <div class="image text-center image-main-div">
-                <img src="../assets/images/03.jpg" alt="not found" width="280" height="auto" />
-                <img class="first" src="../assets/images/003.jpg" alt="not found" width="280" height="auto" />
+                <img src="../assets/images/03.jpg" alt="not found" width="228" height="228" />
+                <img class="first" src="../assets/images/003.jpg" alt="not found" width="228" height="228" />
               </div>
               <h4 class="text-center">Eva Foam Inserts
               </h4>
@@ -148,9 +148,9 @@
           <div class="col-md-2 d-flex align-items-center justify-content-center mb-2">
             <div class="images">
               <div class="image text-center image-main-div">
-                <img src="../assets/images/04.jpg" alt="not found" width="280" height="auto" />
+                <img src="../assets/images/04.jpg" alt="not found" width="228" height="228" />
                 <img class="first" src="../assets/images/004.jpg" alt="not found"
-                     width="280" height="auto" />
+                width="228" height="228" />
               </div>
               <h4 class="text-center">Simple Foam Inserts
               </h4>
@@ -159,9 +159,9 @@
           <div class="col-md-2 d-flex align-items-center justify-content-center mb-2">
             <div class="images">
               <div class="image text-center image-main-div">
-                <img src="../assets/images/05.jpg" alt="not found" width="280" height="auto" />
+                <img src="../assets/images/05.jpg" alt="not found" width="228" height="228" />
                 <img class="first" src="../assets/images/005.jpg" alt="not found"
-                     width="280" height="auto" />
+                width="228" height="228" />
               </div>
               <h4 class="text-center">Velvet Pasting Inserts
               </h4>
@@ -170,9 +170,9 @@
           <div class="col-md-2 d-flex align-items-center justify-content-center mb-2">
             <div class="images">
               <div class="image text-center image-main-div">
-                <img src="../assets/images/06.jpg" alt="not found" width="280" height="auto" />
+                <img src="../assets/images/06.jpg" alt="not found" width="228" height="228" />
                 <img class="first" src="../assets/images/006.jpg" alt="not found"
-                     width="280" height="auto" />
+                width="228" height="228" />
               </div>
               <h4 class="text-center">Corrugated Inserts
               </h4>
@@ -882,10 +882,6 @@
   text-align: center;
 }
 
-.trustpilot #mailer-box-types .images img {
-  width: 100%;
-  height: auto;
-}
 
 #mailer-box-types {
   font-family: var(--fontFamily);
@@ -895,7 +891,8 @@
   }
 
   img {
-    width: 225px;
+    width: 228px;
+    height: 228px
   }
 
   h4 {
