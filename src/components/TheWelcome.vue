@@ -249,13 +249,13 @@
           </div>
           <div class="col-md-3">
             <div class="mailer_products text-center">
-              <img src="../assets/images/m11.jpg" alt="products" />
+              <img src="../assets/images/m11.jpg" alt="products" width="600" height="600" />
               <h4>Corrugated Mailer Boxes</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="mailer_product text-center position-relative">
-              <img src="../assets/images/browse-all.jpg" class="browseall-img" alt="products" />
+              <img src="../assets/images/browse-all.jpg" width="600" height="600" class="browseall-img" alt="products" />
               <div class="browser-all position-absolute">
                 <h4 class="text-white">Explore all Mailer Boxes Products</h4>
                 <button class="cta-button">Browse All</button>
