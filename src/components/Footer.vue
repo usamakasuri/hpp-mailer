@@ -4,36 +4,36 @@
       <div class="row pb-4 border-btm">
         <div class="col-md-5">
           <div class="first-colum">
-            <h2>Innovative In Our Approach Towards Custom Product Packaging</h2>
+            <h2 class="text-center text-md-start">Innovative In Our Approach Towards Custom Product Packaging</h2>
             <div class="logo-list-one">
-              <ul class="p-0 m-0 d-flex flex-wrap align-content-center">
-                <li class="px-2">
-                  <img src="../assets/images/ups-logo.svg" width="120" height="100" alt="usps logo" />
+              <ul class="p-0 m-0 d-flex">
+                <li class="px-1">
+                  <img src="../assets/images/ups-logo.svg" width="100" height="100" alt="usps logo" />
                 </li>
-                <li class="px-2">
-                  <img src="../assets/images/dhl-logo.svg" width="120" height="100" alt="dhl logo" />
+                <li class="px-1">
+                  <img src="../assets/images/dhl-logo.svg" width="100" height="100" alt="dhl logo" />
                 </li>
-                <li class="px-2">
-                  <img src="../assets/images/fedex-logo.svg" width="120" height="100" alt="fedx logo" />
+                <li class="px-1">
+                  <img src="../assets/images/fedex-logo.svg" width="100" height="100" alt="fedx logo" />
                 </li>
               </ul>
               <p class="pr-6">Maintaining The Goodness Of The Products Inside, <br> Our Sustainable Boxes Are Built To Be The Best Beyond Looks!</p>
             </div>
-            <div class="second-logo-list">
-              <img src="../assets/images/logo.svg" width="250" height="100" alt="hpp" />
-              <img class="mx-2" src="../assets/images/fsc.jpg" width="150" height="auto" alt="hpp" />
+            <div class="second-logo-list text-center text-md-start">
+              <img src="../assets/images/logo.svg" class="footer-img" alt="hpp" />
+              <img class="mx-2 fsc-img" src="../assets/images/fsc.jpg" alt="hpp" />
             </div>
             <div class="second-logo-list mt-3">
-              <img src="../assets/images/google-reviews.png" width="120" height="auto" alt="hpp" />
-              <img class="mx-2" src="../assets/images/clutch-logo.png" width="120" height="auto" alt="hpp" />
-              <img class="mx-2" src="../assets/images/bbb-logo.jpg" width="120" height="40" alt="hpp" />
+              <img src="../assets/images/google-reviews.png" width="100" height="auto" alt="hpp" />
+              <img class="mx-2" src="../assets/images/clutch-logo.png" width="100" height="auto" alt="hpp" />
+              <img class="mx-2" src="../assets/images/bbb-logo.jpg" width="100" height="auto" alt="hpp" />
             </div>
           </div>
         </div>
 
         <div class="col-md-7">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-6">
 
                 <div class="second-colums px-1 px-md-5 mt-5 mt-md-0">
                   <div class="quick-links">
@@ -98,9 +98,9 @@
                   </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-6">
 
-                <div class="second-colums px-1 px-md-5">
+                <div class="second-colums px-1 px-md-5 mt-5 mt-md-0">
                   <div class="quick-links">
                     <h4>Contact</h4>
                     <ul>
@@ -212,6 +212,15 @@
 
 <style scoped>
 
+.footer-img {
+  width: 250px;
+  height: auto;
+}
+.fsc-img {
+  width: 140px;
+  height: auto;
+}
+
 footer {
   font-family: var(--fontFamily);
   background: #F2F2F2;
@@ -224,10 +233,10 @@ footer {
     font-size: 28px;
     font-weight: 600;
   }
+
   .second-logo-list {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
   }
   .second-colums {
     ul {
@@ -247,6 +256,18 @@ footer {
         color: #ef4b5f;
       }
     }
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .footer-img {
+    width: 150px;
+    height: auto;
+  }
+  .fsc-img {
+    width: 140px;
+    height: auto;
   }
 }
 </style>
