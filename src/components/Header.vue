@@ -427,8 +427,8 @@
                 <img src="../assets/images/logo.svg" width="200" height="auto" alt="logo" />
               </a>
 
-              <button class="btn btn-primary" style="background: transparent; border: none;" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                <img src="../assets/header/mobile-menu.svg" width="40" height="40" />
+              <button aria-label="buy product" class="btn btn-primary" style="background: transparent; border: none;" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <img src="../assets/header/mobile-menu.svg" width="40" height="40" alt="menu" />
               </button>
 
               <div class="collapse navbar-collapse" id="navbarScroll">
