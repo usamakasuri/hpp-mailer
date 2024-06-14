@@ -9,7 +9,7 @@
     <div class="container-fluid">
       <div class="row pt-3 pb-3">
         <div class="col-md-3">
-          <img src="../assets/images/logo.svg" width="250" height="auto" alt="logo" />
+          <img src="../assets/images/logo.svg" width="250" height="60" alt="logo" />
         </div>
         <div class="col-md-4">
           <div class="header-search">
@@ -17,7 +17,7 @@
               <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username"
                 aria-describedby="button-addon2">
               <button class="btn btn-outline-secondary" type="button" id="button-addon2">
-                <img src="../assets/images/search_icon.svg" alt="search" width="30" />
+                <img src="../assets/images/search_icon.svg" alt="search" width="30" height="30" />
               </button>
             </div>
           </div>
@@ -370,7 +370,7 @@
       <div class="mobile-menu">
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
           <div class="offcanvas-header">
-            <img src="../assets/images/logo.svg" width="200" height="200" alt="logo" />
+            <img src="../assets/images/logo.svg" width="200" height="60" alt="logo" />
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">

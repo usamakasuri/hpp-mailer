@@ -9,7 +9,7 @@
         <div class="row">
           <div class="col-md-12 p-0 p-md-0">
             <div class="breadcrumb-sec">
-              <a class="d-flex align-items-center text-decoration-none">
+              <a href="#" class="d-flex align-items-center text-decoration-none">
                 <img src="../assets/icons/breadcrumb.svg" width="25" height="25" alt="Breadcrumb" />
                 <p class="m-0 d-flex align-items-center">Mailer Boxes</p>
               </a>
