@@ -111,7 +111,7 @@
                       </li>
                       <li class="py-1">
                         <a href="mailto:orders@halfpricepackaging.com">
-                          orders@halfpricepackaging.com
+                          Email Us
                         </a>
                       </li>
                       <li class="py-1">
@@ -132,7 +132,7 @@
                     </ul>
                   </div>
                   <div class="userful-links mt-0 mt-md-5">
-                    <h4>Useful Links</h4>
+                    <h4>About</h4>
                     <ul>
                       <li class="py-1">
                         <a href="">
