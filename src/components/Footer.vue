@@ -1,5 +1,5 @@
 <template>
-  <footer class="rounded-5 p-1 p-md-5 pt-4 mt-4">
+  <footer class="rounded-5 p-1 p-md-5 pt-4 mt-4 mb-4">
     <div class="container-fluid">
       <div class="row pb-4 border-btm">
         <div class="col-md-5">
