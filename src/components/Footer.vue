@@ -174,7 +174,7 @@
 
       <div class="row footer-copyright border-top pt-4">
           <div class="col-md-6">
-            <p>© 2024 Half Price Packaging. All Rights Reserved.</p>
+            <p class="text-center text-md-start">© 2024 Half Price Packaging. All Rights Reserved.</p>
           </div>
         <div class="col-md-6">
           <ul class="footer-ul">
@@ -304,7 +304,7 @@ footer {
   }
 
   .footer-ul {
-    justify-content: baseline;
+    justify-content: center;
   }
 
   .fsc-img {
