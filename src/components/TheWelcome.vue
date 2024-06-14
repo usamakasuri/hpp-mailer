@@ -399,7 +399,7 @@
                           <a href="#">Click Here for Bulk Order <span>
                             <img src="../assets/images/right-arrrow.svg" width="20" height="20"alt="right arrow" />
                           </span></a>
-                          <button class="cta-button" style="width: 300px;">Proceed</button>
+                          <button class="cta-button" style="width: 200px;">Proceed</button>
                         </div>
 
                       </div>

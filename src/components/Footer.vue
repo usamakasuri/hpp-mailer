@@ -287,12 +287,26 @@ footer {
   height: auto;
 }
 
+.footer-ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
 
 @media screen and (max-width: 767px) {
   .footer-img {
     width: 130px;
     height: auto;
   }
+
+  .footer-ul {
+    justify-content: baseline;
+  }
+
   .fsc-img {
     width: 110px;
     height: auto;
