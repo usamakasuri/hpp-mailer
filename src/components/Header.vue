@@ -3,11 +3,11 @@
 
 <template>
   <section id="desktop-menu">
-    <div class="header-top-bar text-center">
+    <!-- <div class="header-top-bar text-center">
       <a href="#">
         <img src="../assets/images/bulk-order-deal.7f2832d.jpg" alt="bul order" width="45%" height="auto" />
       </a>
-    </div>
+    </div> -->
 
     <div class="container-fluid">
       <div class="row pt-3 pb-3">
