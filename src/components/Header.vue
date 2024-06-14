@@ -370,7 +370,7 @@
       <div class="mobile-menu">
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
           <div class="offcanvas-header">
-            <img src="../assets/images/logo.svg" width="200" height="auto" alt="logo" />
+            <img src="../assets/images/logo.svg" width="200" height="200" alt="logo" />
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
@@ -706,20 +706,6 @@
     display: block;
   }
 
-  #trustpilot {
-    & .trustpilot {
-        p {
-            font-size: 12px;
-            font-weight: 600;
-            color: #3c4044;
-            line-height: 14px;
-        }
-    }
-}
-
-.trustpilot-1 {
-  height: 80px;
-}
 
 #mailer-box-types {
     .image-main-div {
