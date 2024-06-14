@@ -424,7 +424,7 @@
           <nav class="navbar navbar-expand-lg mt-2">
             <div class="container-fluid p-0 p-md-2">
               <a class="navbar-brand" href="#">
-                <img src="../assets/images/logo.svg" width="200" height="auto" alt="logo" />
+                <img src="../assets/images/logo.svg" width="200" height="60" alt="logo" />
               </a>
 
               <button aria-label="buy product" class="btn btn-primary" style="background: transparent; border: none;" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
