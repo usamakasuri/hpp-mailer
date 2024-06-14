@@ -2,18 +2,18 @@
   <section id="desktop-menu">
     <div class="header-top-bar text-center">
       <a href="#">
-        <img src="../assets/images/bulk-order-deal.7f2832d.jpg" alt="bul order" width="700" />
+        <img src="../assets/images/bulk-order-deal.7f2832d.jpg" alt="bul order" width="45%" height="auto" />
       </a>
     </div>
 
     <div class="container-fluid">
-      <div class="row pt-4 pb-4 mx-5">
-        <div class="col-md-2">
-          <img src="../assets/images/logo.svg" width="200" alt="logo" />
+      <div class="row pt-3 pb-3">
+        <div class="col-md-3">
+          <img src="../assets/images/logo.svg" width="250" height="auto" alt="logo" />
         </div>
         <div class="col-md-4">
           <div class="header-search">
-            <div class="input-group mb-3">
+            <div class="input-group">
               <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username"
                 aria-describedby="button-addon2">
               <button class="btn btn-outline-secondary" type="button" id="button-addon2">
@@ -22,17 +22,24 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="talk-to-expert text-center">
-            <p class="m-0">Talk to our packaging experts</p>
-            <a href="tel:866-225-2112">866-225-2112</a>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="talk-to-expert-email text-center">
-            <p class="m-0 invisible">Talk to our packaging experts</p>
-            <a href="mailto:orders@halfpricepackaging.com">orders@halfpricepackaging.com</a>
-          </div>
+        <div class="col-md-5">
+         <ul class="phone-email d-flex align-items-end justify-content-end">
+           <li>
+             <div class="talk-to-expert text-center">
+               <p class="m-0">Talk to our packaging experts</p>
+               <a href="tel:866-225-2112">866-225-2112</a>
+             </div>
+           </li>
+           <li>
+            <span class="mx-2" style="color: #000;">|</span>
+           </li>
+           <li>
+             <div class="talk-to-expert-email text-center">
+               <p class="m-0 invisible">Talk to our packaging experts</p>
+               <a style="color: #7157f8;" href="mailto:orders@halfpricepackaging.com">orders@halfpricepackaging.com</a>
+             </div>
+           </li>
+         </ul>
         </div>
       </div>
     </div>
@@ -44,303 +51,308 @@
       <header>
         <div class="desktop-menu">
           <section id="navbar">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white mx-5">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
               <div class="container-fluid bg-white">
                 <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
-                  <ul class="navbar-nav">
-                    <li class="nav-item mx-3">
-                      <div class="services-dropdown">
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false"><b>Services</b></a>
+                  <div class="d-flex justify-content-between" style="width: 100%">
+                    <ul class="navbar-nav">
+                      <li class="nav-item me-2">
+                        <div class="services-dropdown">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">Services</a>
 
-                      <ul class="dropdown-menu shadow-sm pb-5" aria-labelledby="navbarDarkDropdownMenuLink">
-                        <div class="mega-menu-header">
-                          <div class="container-fluid">
-                            <div class="row">
-                              <div class="col-md-2">
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/1.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Consmetics</h6>
-                                      </div>
+                            <ul class="dropdown-menu shadow-sm pb-5" aria-labelledby="navbarDarkDropdownMenuLink">
+                              <div class="mega-menu-header">
+                                <div class="container-fluid">
+                                  <div class="row">
+                                    <div class="col-md-2">
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/1.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Consmetics</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/2.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Vapes & Cigerattes</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/3.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Candy & Sweets</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/4.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Apparel & Fashion</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/5.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Holiday</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
                                     </div>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/2.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Vapes & Cigerattes</h6>
-                                      </div>
+                                    <div class="col-md-2">
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/1.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Consmetics</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/2.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Vapes & Cigerattes</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/3.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Candy & Sweets</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/4.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Apparel & Fashion</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/5.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Holiday</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
                                     </div>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/3.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Candy & Sweets</h6>
-                                      </div>
+                                    <div class="col-md-2">
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/1.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Consmetics</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/2.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Vapes & Cigerattes</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/3.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Candy & Sweets</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/4.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Apparel & Fashion</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/5.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Holiday</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
                                     </div>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/4.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Apparel & Fashion</h6>
-                                      </div>
+                                    <div class="col-md-2">
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/1.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Consmetics</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/2.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Vapes & Cigerattes</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/3.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Candy & Sweets</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/4.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Apparel & Fashion</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">
+                                          <div class="category-section d-flex align-items-center">
+                                            <div class="category-icon">
+                                              <img src="../assets/header/5.svg" width="40" height="40">
+                                            </div>
+                                            <div class="category-name-text">
+                                              <h6>Holiday</h6>
+                                            </div>
+                                          </div>
+                                        </a>
+                                      </li>
                                     </div>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/5.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Holiday</h6>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </li>
-                              </div>
-                              <div class="col-md-2">
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/1.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Consmetics</h6>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/2.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Vapes & Cigerattes</h6>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/3.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Candy & Sweets</h6>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/4.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Apparel & Fashion</h6>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/5.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Holiday</h6>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </li>
-                              </div>
-                              <div class="col-md-2">
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/1.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Consmetics</h6>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/2.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Vapes & Cigerattes</h6>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/3.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Candy & Sweets</h6>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/4.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Apparel & Fashion</h6>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/5.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Holiday</h6>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </li>
-                              </div>
-                              <div class="col-md-2">
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/1.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Consmetics</h6>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/2.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Vapes & Cigerattes</h6>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/3.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Candy & Sweets</h6>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/4.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Apparel & Fashion</h6>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <div class="category-section d-flex align-items-center">
-                                      <div class="category-icon">
-                                        <img src="../assets/header/5.svg" width="40" height="40">
-                                      </div>
-                                      <div class="category-name-text">
-                                        <h6>Holiday</h6>
-                                      </div>
-                                    </div>
-                                  </a>
-                                </li>
-                              </div>
 
-                              <div class="col-md-4 text-center">
-                                <div class="view-all-cat p-4">
-                                  <div class="d-inline-grid relative">
-                                    <img src="../assets/header/all-cat.png" class="rounded-3" alt="hpp" width="300"
-                                      height="auto" />
-                                    <a href="#" class="position-absolute">Browse all Catalogue</a>
+                                    <div class="col-md-4 text-center">
+                                      <div class="view-all-cat p-4">
+                                        <div class="d-inline-grid relative">
+                                          <img src="../assets/header/all-cat.png" class="rounded-3" alt="hpp" width="300"
+                                               height="auto" />
+                                          <a href="#" class="position-absolute">Browse all Catalogue</a>
+                                        </div>
+                                      </div>
+                                    </div>
+
                                   </div>
                                 </div>
                               </div>
-
-                            </div>
-                          </div>
+                            </ul>
+                          </li>
                         </div>
-                      </ul>
-                    </li>
-                </div>
-                </li>
+                      </li>
 
-                <li class="nav-item mx-3">
-                  <a href="#" class="nav-link">Materials</a>
-                </li>
+                      <li class="nav-item me-2">
+                        <a href="#" class="nav-link">Materials</a>
+                      </li>
 
-                <li class="nav-item mx-3">
-                  <a href="#" class="nav-link">Insights</a>
-                </li>
+                      <li class="nav-item me-2">
+                        <a href="#" class="nav-link">Insights</a>
+                      </li>
 
-                <li class="nav-item mx-3 blink-tag position-relative">
-                  <a href="#" class="nav-link">Primary Packaging
-                    <span class="blink">New</span>
-                  </a>
-                </li>
+                      <li class="nav-item me-2 blink-tag position-relative">
+                        <a href="#" class="nav-link">Primary Packaging
+                          <span class="blink">New</span>
+                        </a>
+                      </li>
 
-                </ul>
-
+                    </ul>
+                    <div class="d-flex">
+                      <button class="beat-price mx-3" type="submit">Beat the Price</button>
+                      <button class="req-quote">Request a Quote</button>
+                    </div>
+                  </div>
               </div>
         </div>
         </nav>
@@ -360,7 +372,7 @@
 <style scoped>
 .header-top-bar {
   border-bottom: 1px solid rgba(0, 0, 0, .1);
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 
 .header-search {
@@ -380,7 +392,7 @@
   .input-group {
     border: 1px solid #F2F2F2;
     background-color: #F2F2F2;
-    padding: 5px;
+    padding: 2px;
     border-radius: 10px;
   }
 }
@@ -389,11 +401,11 @@
   font-family: var(--fontFamily);
 
   p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   a {
-    color: #007bff;
+    color: #7157f8;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
@@ -408,6 +420,14 @@
 
 .desktop-menu {
   font-family: var(--fontFamily);
+
+  ul {
+    li {
+      a {
+        font-size: 16px;
+      }
+    }
+  }
 
   .services-dropdown {
     .mega-menu-header {
@@ -453,17 +473,17 @@
 
 .blink-tag .blink {
   animation: blinker-c970699f 1s linear infinite;
-    color: #fff;
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    font-size: 10px;
-    background-color: red;
-    padding: 4px 8px;
-    border-radius: 5px;
-    font-weight: 600;
-    opacity: 0.8;
-    position: absolute;
-    top: -12px;
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-size: 10px;
+  background-color: red;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-weight: 600;
+  opacity: 0.8;
+  position: absolute;
+  top: -12px;
 }
 
 @keyframes blinker {
@@ -471,4 +491,51 @@
     opacity: 0;
   }
 }
+
+.beat-price {
+    background-color: transparent;
+    border: 1px solid #7157f8;
+    color: #7157f8;
+    font-size: 16px;
+    padding: 12px 15px;
+    font-weight: 400;
+    border-radius: 14px;
+}
+
+.beat-price:hover {
+  background-color: #ef4b5f;
+    border: 1px solid #ef4b5f;
+    color: #fff;
+}
+
+.req-quote {
+  font-family: var(--fontFamily);
+  background-color: transparent;
+    border: 1px solid #7157f8;
+    color: #7157f8;
+    font-size: 16px;
+    padding: 12px 15px;
+    font-weight: 400;
+    border-radius: 14px;
+}
+
+.req-quote:hover {
+  background-color: #ef4b5f;
+    border: 1px solid #ef4b5f;
+    color: #fff;
+}
+
+.phone-email {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.talk-to-expert-email a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #7157f8;
+  font-family: var(--fontFamily);
+}
+
 </style>

@@ -3,7 +3,7 @@
 
 <template>
 
-  <main class="m-4">
+  <main>
     <section id="mailer-box">
       <div class="container-fluid">
         <div class="row">
