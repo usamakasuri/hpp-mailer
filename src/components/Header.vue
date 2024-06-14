@@ -418,7 +418,7 @@
                 </a>
               </li>
             </ul>
-            <button class="req-quote" style="width: 100%">Request a Quote</button>
+            <button class="req-quote mt-3" style="width: 100%">Request a Quote</button>
           </div>
         </div>
           <nav class="navbar navbar-expand-lg mt-2">
@@ -688,8 +688,8 @@
 
 #mobile-menu ul li a {
   font-family: var(--fontFamily);
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 
