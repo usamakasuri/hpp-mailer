@@ -630,8 +630,8 @@
                   <input type="text" class="form-control" placeholder="Quantity" aria-label="Quantity">
                 </div>
                 <div class="col-md-6">
-                  <select id="inputState" class="form-select">
-                    <option selected>Please select industry</option>
+                  <select id="inputState" class="form-select" aria-label="Quantity">
+                    <option aria-label="Quantity" selected>Please select industry</option>
                     <option>...</option>
                   </select>
                 </div>

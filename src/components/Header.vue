@@ -421,14 +421,6 @@
 .desktop-menu {
   font-family: var(--fontFamily);
 
-  ul {
-    li {
-      a {
-        font-size: 16px;
-      }
-    }
-  }
-
   .services-dropdown {
     .mega-menu-header {
       min-width: 90vw;
@@ -459,6 +451,14 @@
 
 .desktop-menu .dropdown-menu {
   border: 1px solid groove;
+}
+
+.desktop-menu ul li a {
+  font-size: 16px;
+}
+
+.desktop-menu ul li:nth-child(1) a {
+  font-weight: 600;
 }
 
 .view-all-cat a {
