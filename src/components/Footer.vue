@@ -172,7 +172,7 @@
 
       </div>
 
-      <div class="row footer-copyright border-top pt-4">
+      <div class="row footer-copyright border-top pt-4 pb-4">
           <div class="col-md-6">
             <p class="text-center text-md-start">© 2024 Half Price Packaging. All Rights Reserved.</p>
           </div>
