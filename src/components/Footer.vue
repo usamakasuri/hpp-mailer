@@ -1,5 +1,5 @@
 <template>
-  <footer class="m-4 p-4 rounded-3">
+  <footer class="m-1 m-md-2 p-2 p-md-4 rounded-3">
     <div class="container-fluid">
       <div class="row pb-4 border-btm">
         <div class="col-md-5">
@@ -35,7 +35,7 @@
           <div class="row">
             <div class="col-md-6">
 
-                <div class="second-colums px-5 mt-5 mt-md-0">
+                <div class="second-colums px-1 px-md-5 mt-5 mt-md-0">
                   <div class="quick-links">
                     <h4>Quick Links</h4>
                     <ul>
@@ -100,7 +100,7 @@
             </div>
             <div class="col-md-6">
 
-                <div class="second-colums px-5">
+                <div class="second-colums px-1 px-md-5">
                   <div class="quick-links">
                     <h4>Contact</h4>
                     <ul>

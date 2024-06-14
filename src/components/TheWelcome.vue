@@ -5,9 +5,9 @@
 
   <main>
     <section id="mailer-box">
-      <div class="container-fluid">
+      <div class="container-fluid mt-2">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 p-0 p-md-0">
             <div class="breadcrumb-sec">
               <a class="d-flex align-items-center text-decoration-none">
                 <img src="../assets/icons/breadcrumb.svg" width="25" height="25" alt="Breadcrumb" />
@@ -19,11 +19,11 @@
       </div>
     </section>
 
-    <section id="custom-mailer-box" class="mt-4 mb-4">
+    <section id="custom-mailer-box" class="mt-2 mb-4">
       <div class="container-fluid">
-        <div class="row py-5 bg-F7F7F7 rounded-3 d-flex align-items-center">
+        <div class="row py-2 py-md-5 bg-F7F7F7 rounded-3 d-flex align-items-center">
           <div class="col-md-6 r-section">
-            <div class="p-4">
+            <div class="p-2 p-md-4">
               <h2 class="text-center text-md-start">Custom Printed Mailer Boxes</h2>
               <p class="text-center text-md-start">Being the fastest-growing packaging company, Half Price Packaging
                 consistently strives for excellence,
@@ -33,7 +33,7 @@
             </div>
           </div>
           <div class="col-md-6 px-2 py-4 px-md-5">
-            <div class="p-4 instant-quote rounded-3 shadow-sm">
+            <div class="p-3 p-md-4 instant-quote rounded-3 shadow-sm">
               <h2 class="text-center">Get an Instant Quote</h2>
               <form class="mt-4">
                 <div class="row">
@@ -76,28 +76,55 @@
       </div>
     </section>
 
-    <section id="trustpilot" class="mt-3">
-      <div class="container-fluid">
-        <div class="row trustpilot py-5 py-md-4">
+    <section id="trustpilot">
+      <div class="container-fluid d-none">
+        <div class="row trustpilot py-3 py-md-2 py-md-4">
           <div class="col-md-4">
             <div class="trustpilot-logo">
-              <img src="../assets/images/trustpilott.svg" alt="trustpolit" style="width: 150px" />
-              <img class="mx-3 mt-2" src="../assets/images/review-starts.svg" alt="trustpilot reviews" width="115px" />
-              <p class="m-0 mt-2">4.9 / 5 ratings</p>
+              <img src="../assets/images/trustpilot.png" alt="trustpolit" />
             </div>
           </div>
-          <div class="col-md-8">
-            <ul class="trustpilot-features mt-3-0 p-0">
+
+          <div class="col-sm-6 col-md-6 col-lg-2">
+            <div class="trustpilot-1 d-block d-md-flex align-items-md-center text-center">
+              <img src="../assets/images/sss-certified.png" width="40" height="40" alt="hpp"/>
+              <p class="px-3 m-0">FSC Certified</p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-6 col-lg-2">
+            <div class="trustpilot-1 d-block d-md-flex align-items-md-center text-center">
+              <img src="../assets/images/sss-certified.png" width="40" height="40" alt="hpp"/>
+              <p class="px-3 m-0">FSC Certified</p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-6 col-lg-2">
+            <div class="trustpilot-1 d-block d-md-flex align-items-md-center text-center">
+              <img src="../assets/images/sss-certified.png" width="40" height="40" alt="hpp"/>
+              <p class="px-3 m-0">FSC Certified</p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-6 col-lg-2">
+            <div class="trustpilot-1 d-block d-md-flex align-items-md-center text-center">
+              <img src="../assets/images/sss-certified.png" width="40" height="40" alt="hpp"/>
+              <p class="px-3 m-0">FSC Certified</p>
+            </div>
+          </div>
+
+          <div class="col-md-8 d-none">
+            <ul class="trustpilot-features p-0 m-0 px-2 px-md-5">
               <li class="d-flex align-items-center">
-                <img src="../assets/images/sss-certified.png" width="40" height="40"alt="hpp"/>
+                <img src="../assets/images/sss-certified.png" width="40" height="40" alt="hpp"/>
                 <p class="px-3 m-0">FSC Certified</p>
               </li>
               <li class="d-flex align-items-center">
-                <img src="../assets/images/clock.png" width="40" height="40"alt="hpp" />
+                <img src="../assets/images/clock.png" width="40" height="40" alt="hpp" />
                 <p class="px-3 m-0">Easy Order Processing</p>
               </li>
               <li class="d-flex align-items-center">
-                <img src="../assets/images/fast-delivery.png" width="40" height="40"alt="hpp" />
+                <img src="../assets/images/fast-delivery.png" width="40" height="40" alt="hpp" />
                 <p class="px-3 m-0">Super-Fast Delivery</p>
               </li>
               <li class="d-flex align-items-center">
@@ -601,7 +628,7 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <div class="text-center">
+            <div class="text-center mb-4">
               <img class="rounded-2" src="../assets/images/why-stack.jpg" alt="Half Price Packaging" width="100%" height="100%"/>
             </div>
           </div>
@@ -855,8 +882,6 @@
   .trustpilot {
     background: #e1dbff;
     border-radius: 10px;
-    margin-top: 40px;
-
     p {
       font-size: 14px;
       font-weight: 600;
@@ -864,8 +889,9 @@
     }
 
     .trustpilot-logo {
-      display: flex;
-      align-items: center;
+      img {
+        width: 400px;
+      }
     }
 
     .trustpilot-features {
@@ -1197,7 +1223,12 @@
   #trustpilot .trustpilot .trustpilot-logo {
     display: block;
     text-align: center;
-    margin-bottom: 45px;
+  }
+
+  .trustpilot-logo {
+    img {
+     display: none;
+    }
   }
 }
 </style>
