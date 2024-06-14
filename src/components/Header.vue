@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <template>
   <section id="desktop-menu">
     <div class="header-top-bar text-center">
@@ -9,7 +12,9 @@
     <div class="container-fluid">
       <div class="row pt-3 pb-3">
         <div class="col-md-3">
+
           <img src="../assets/images/logo.svg" width="250" height="60" alt="logo" />
+
         </div>
         <div class="col-md-4">
           <div class="header-search">
@@ -368,7 +373,8 @@
   <section id="mobile-menu">
     <header>
       <div class="mobile-menu">
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel">
           <div class="offcanvas-header">
             <img src="../assets/images/logo.svg" width="200" height="60" alt="logo" />
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -376,25 +382,29 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav me-auto my-lg-0" style="--bs-scroll-height: 100px;">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
                   Industries
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Item 1</a></li>
+                  <li><a class="dropdown-item" href="#">Item 1</a></li>
+                  <li><a class="dropdown-item" href="#">Item 1</a></li>
+                  <li><a class="dropdown-item" href="#">Item 1</a></li>
+                  <li><a class="dropdown-item" href="#">Item 1</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
                   Shapes & Styles
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Item 1</a></li>
+                  <li><a class="dropdown-item" href="#">Item 1</a></li>
+                  <li><a class="dropdown-item" href="#">Item 1</a></li>
+                  <li><a class="dropdown-item" href="#">Item 1</a></li>
+                  <li><a class="dropdown-item" href="#">Item 1</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -421,69 +431,76 @@
             <button class="req-quote mt-3" style="width: 100%">Request a Quote</button>
           </div>
         </div>
-          <nav class="navbar navbar-expand-lg mt-2">
-            <div class="container-fluid p-0 p-md-2">
-              <a class="navbar-brand" href="#">
-                <img src="../assets/images/logo.svg" width="200" height="60" alt="logo" />
-              </a>
+        <nav class="navbar navbar-expand-lg mt-2">
+          <div class="container-fluid p-0 p-md-2">
+            <a class="navbar-brand" href="#">
+              <img src="../assets/images/logo.svg" width="200" height="60" alt="logo" />
+            </a>
 
-              <button aria-label="buy product" class="btn btn-primary" style="background: transparent; border: none;" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                <img src="../assets/header/mobile-menu.svg" width="40" height="40" alt="menu" />
-              </button>
+            <button aria-label="buy product" class="btn btn-primary" style="background: transparent; border: none;"
+              data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+              <img src="../assets/header/mobile-menu.svg" width="40" height="40" alt="menu" />
+            </button>
 
-              <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Industries
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Shapes & Styles
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      Materials
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      Insights
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      Primary Packaging
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      Product Catalogue
-                    </a>
-                  </li>
-                </ul>
-              </div>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Industries
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Shapes & Styles
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    Materials
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    Insights
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    Primary Packaging
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    Product Catalogue
+                  </a>
+                </li>
+              </ul>
             </div>
-          </nav>
+          </div>
+        </nav>
         <div class="col-md-12 mt-3 mb-3">
           <div class="header-search">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username"
-                     aria-describedby="button-addon2">
+                aria-describedby="button-addon2">
               <button class="btn btn-outline-secondary" type="button" id="button-addon2">
                 <img src="../assets/images/search_icon.svg" alt="search" width="30" />
               </button>
@@ -499,6 +516,7 @@
 </script>
 
 <style scoped>
+
 .header-top-bar {
   border-bottom: 1px solid rgba(0, 0, 0, .1);
   padding: 10px 0px;
@@ -648,6 +666,16 @@
   border-radius: 14px;
 }
 
+.container-sub .dropdown-submenu {
+  position: relative;
+}
+
+.container-sub .dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+
 .req-quote:hover {
   background-color: #ef4b5f;
   border: 1px solid #ef4b5f;
@@ -707,18 +735,18 @@
   }
 
 
-#mailer-box-types {
+  #mailer-box-types {
     .image-main-div {
-        height: 160px;
+      height: 160px;
     }
-}
+  }
 
-#mailer-box-types {
+  #mailer-box-types {
     img {
-        width: 150px;
-        height: 150px;
+      width: 150px;
+      height: 150px;
     }
-}
+  }
 
 }
 </style>

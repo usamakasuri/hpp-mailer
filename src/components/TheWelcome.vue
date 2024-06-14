@@ -77,39 +77,41 @@
     </section>
 
     <section id="trustpilot">
-      <div class="container-fluid d-none">
-        <div class="row trustpilot py-3 py-md-2 py-md-4">
-          <div class="col-md-4">
-            <div class="trustpilot-logo">
-              <img src="../assets/images/trustpilot.png" alt="trustpolit" />
+      <div class="container-fluid">
+        <div class="row trustpilot py-3 py-md-3 ">
+          <div class="col-md-4 px-4 py-3 py-md-0">
+            <div class="trustpilot-logo d-flex align-items-center">
+              <img src="../assets/images/trustpilot.svg" width="50" height="100" alt="hpp"/>
+              <img class="mx-2" src="../assets/images/review-starts.svg" height="24" width="144" alt="hpp" />
+              <p class="m-0">4.9 / 5 ratings</p>
             </div>
           </div>
 
-          <div class="col-sm-6 col-md-6 col-lg-2">
-            <div class="trustpilot-1 d-block d-md-flex align-items-md-center text-center">
+          <div class="col-md-2">
+            <div class="feature_trust">
               <img src="../assets/images/sss-certified.png" width="40" height="40" alt="hpp"/>
-              <p class="px-3 m-0">FSC Certified</p>
+              <p class="m-0">FSC Certified</p>
             </div>
           </div>
 
-          <div class="col-sm-6 col-md-6 col-lg-2">
-            <div class="trustpilot-1 d-block d-md-flex align-items-md-center text-center">
-              <img src="../assets/images/sss-certified.png" width="40" height="40" alt="hpp"/>
-              <p class="px-3 m-0">FSC Certified</p>
+          <div class="col-md-2">
+            <div class="feature_trust">
+              <img src="../assets/images/clock.png" width="40" height="40" alt="hpp" />
+              <p class="m-0">Easy Order Processing</p>
             </div>
           </div>
 
-          <div class="col-sm-6 col-md-6 col-lg-2">
-            <div class="trustpilot-1 d-block d-md-flex align-items-md-center text-center">
-              <img src="../assets/images/sss-certified.png" width="40" height="40" alt="hpp"/>
-              <p class="px-3 m-0">FSC Certified</p>
+          <div class="col-md-2">
+            <div class="feature_trust">
+              <img src="../assets/images/fast-delivery.png" width="40" height="40" alt="hpp" />
+              <p class="m-0">Super-Fast Delivery</p>
             </div>
           </div>
 
-          <div class="col-sm-6 col-md-6 col-lg-2">
-            <div class="trustpilot-1 d-block d-md-flex align-items-md-center text-center">
-              <img src="../assets/images/sss-certified.png" width="40" height="40" alt="hpp"/>
-              <p class="px-3 m-0">FSC Certified</p>
+          <div class="col-md-2">
+            <div class="feature_trust">
+              <img src="../assets/images/3d-design.png" width="40" height="40" alt="hpp" />
+              <p class="m-0">3D Design Studio</p>
             </div>
           </div>
 
@@ -886,7 +888,8 @@
 
     .trustpilot-logo {
       img {
-        width: 400px;
+        width: 150px;
+        height: auto;
       }
     }
 
@@ -894,6 +897,9 @@
       display: flex;
       align-items: center;
       justify-content: end;
+      padding: 0;
+      margin: 0;
+      list-style: none;
     }
   }
 }
@@ -1202,21 +1208,48 @@
   padding-right: 10px;
 }
 
+#trustpilot .trustpilot {
+  display: flex;
+  align-items: center;
+}
+
+#trustpilot .feature_trust {
+  display: flex;
+  align-items: center;
+}
+
+#trustpilot .feature_trust p {
+  padding-left: 10px;
+  font-size: 14px;
+}
 
 @media screen and (max-width: 768px) {
   #trustpilot .trustpilot .trustpilot-features {
     display: block;
   }
 
+  #trustpilot .feature_trust {
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
   #trustpilot .trustpilot .trustpilot-logo {
     display: block;
     text-align: center;
   }
 
-  .trustpilot-logo {
-    img {
-     display: none;
+  #trustpilot {
+     .trustpilot {
+      .trustpilot-logo {
+        img {
+          width: 100px;
+          height: auto;
+        }
+      }
     }
   }
 }
+
+
 </style>
