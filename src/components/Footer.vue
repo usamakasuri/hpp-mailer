@@ -20,13 +20,13 @@
               <p class="pr-6 text-center text-md-start">Maintaining The Goodness Of The Products Inside, <br> Our Sustainable Boxes Are Built To Be The Best Beyond Looks!</p>
             </div>
             <div class="second-logo-list text-center text-md-start">
-              <img src="../assets/images/logo.svg" class="footer-img" alt="hpp" />
-              <img class="mx-2 fsc-img" src="../assets/images/fsc.jpg" alt="hpp" />
+              <img src="../assets/images/logo.svg" class="footer-img" width="200" height="200" alt="hpp" />
+              <img class="mx-2 fsc-img" src="../assets/images/fsc.jpg" width="200" height="200" alt="hpp" />
             </div>
             <div class="second-logo-list mt-3">
-              <img src="../assets/images/google-reviews.png" width="90" height="auto" alt="hpp" />
-              <img class="mx-2" src="../assets/images/clutch-logo.png" width="90" height="auto" alt="hpp" />
-              <img class="mx-2" src="../assets/images/bbb-logo.jpg" width="90" height="auto" alt="hpp" />
+              <img src="../assets/images/google-reviews.png" class="google-img" width="80" height="80" alt="hpp" />
+              <img class="mx-2 clucth-img" src="../assets/images/clutch-logo.png" width="80" height="80" alt="hpp" />
+              <img class="mx-2 bb-img" src="../assets/images/bbb-logo.jpg" width="80" height="80" alt="hpp" />
             </div>
           </div>
         </div>
@@ -280,6 +280,11 @@ footer {
 .userful-links ul li a:hover {
   text-decoration: underline;
   color: #ef4b5f;
+}
+
+.google-img, .clutch-img, .bb-img {
+  width: 80px;
+  height: auto;
 }
 
 
