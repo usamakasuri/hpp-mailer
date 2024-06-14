@@ -7,7 +7,7 @@ import Header from "@/components/Header.vue";
 <template>
   <main class="mx-4">
    <Header></Header>
-     <TheWelcome></TheWelcome>
-    <Footer></Footer>
+<!--     <TheWelcome></TheWelcome>-->
+<!--    <Footer></Footer>-->
   </main>
 </template>
