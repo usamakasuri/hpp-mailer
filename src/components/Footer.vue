@@ -1,5 +1,5 @@
 <template>
-  <footer class="rounded-5 p-1 p-md-5 pt-4 mt-4 mb-4">
+  <footer class="rounded-5 px-2 px-md-5 pt-5 pb-4 mt-4 mb-4">
     <div class="container-fluid">
       <div class="row pb-4 border-btm">
         <div class="col-md-5">
@@ -172,9 +172,9 @@
 
       </div>
 
-      <div class="row footer-copyright border-top pt-4 pb-4">
+      <div class="row footer-copyright border-top pt-4">
           <div class="col-md-6">
-            <p class="text-center text-md-start">© 2024 Half Price Packaging. All Rights Reserved.</p>
+            <p class="text-center text-md-start m-0">© 2024 Half Price Packaging. All Rights Reserved.</p>
           </div>
         <div class="col-md-6">
           <ul class="footer-ul">
@@ -303,6 +303,10 @@ footer {
     height: auto;
   }
 
+  .instant-form ul li:nth-child(0) {
+    display: none !important;
+  }
+
   .footer-ul {
     justify-content: center;
   }
@@ -321,6 +325,7 @@ footer {
     align-items: center;
     justify-content: center;
   }
+
 
   footer {
     .second-colums {
